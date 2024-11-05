@@ -1,9 +1,17 @@
 # Money Tracking
 
-### Project Brief 
+### Project Overview
+Money Tracking is a console application developed in C# for tracking financial transactions. It allows users to add, edit, and delete both expenses and incomes, providing a calculation of total savings through a command-line interface. The application saves data to a file, ensuring that users can resume tracking where they left off.
 
-Your task is to build a money tracking application. The application will allow a user to enter expense(s) and income(s) to the application. Further, they should be able to assign a month to an expense or income. They will interact with a text based user interface via the command-line. 
-Once they are using the application, the user should be able to also edit and remove items from the application. They can also quit and save the current task list to file, and then restart the application with the former state restored. The interface should look similar to the mock up below: 
+### Features
+The application includes the following functionality:
+
+Tracking Expenses and Incomes: Enter, view, and manage both expense and income transactions.
+Sorting and Filtering: Sort transactions by month, amount, or title, and filter by expenses or incomes.
+Editing and Removing Transactions: Easily modify or delete transactions.
+Data Persistence: Save and load transaction data to and from a file.
+Intuitive Command-Line Interface: A text-based interface guides users through tracking their finances.
+The command-line interface is simple and easy to navigate, resembling the following mock-up:
 
 > ```csharp
 > Welcome to TrackMoney
@@ -15,20 +23,20 @@ Once they are using the application, the user should be able to also edit and re
 > (4) Save and Quit
 > ```
 
-#### Requirements 
-The solution must achieve the following requirements: 
+### Requirements
+The project satisfies the following requirements:
 
-- [X] Model an item with title, amount, and month. 
-	- [X] Solve the problem where you have to distinguish income and expense.
-- [X] Display a collection of items that can be sorted in ascending or descending order. 
-	- [X] Sorted by month, amount or title. 
-	- [X] Display only expenses or only incomes. 
-- [X] Support the ability to edit, and remove items 
-- [X] Support a text-based user interface 
-- [X] Load and save items list to file 
+- [X] Item Modeling: Each transaction has a title, amount, and month.
+- [X] Distinguishes between income and expense items.
+- [X] Transaction Display: View a list of transactions sorted by various criteria.
+- [X] Sort by month, amount, or title.
+- [X] Option to display only expenses or only incomes.
+- [X] Editing and Removing Transactions: Modify or delete items as needed.
+- [X] Text-Based User Interface: Provides a user-friendly command-line experience.
+- [X] Data Persistence: Load and save the transaction list to a file for future use.
 
-The solution may also include other creative features at your discretion in case you wish to show some flair.
-
+### Objective
+This project demonstrates my C# skills in object-oriented programming by modeling real-world financial tracking concepts, implementing sorting and filtering functionality, and creating a user-friendly, text-based interface.
 
 #### Solution
 
