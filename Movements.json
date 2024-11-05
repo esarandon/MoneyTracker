@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "Income",
+    "Title": "Salary",
+    "Amount": 12345,
+    "Date": "22-11-2023"
+  },
+  {
+    "Type": "Expense",
+    "Title": "Fuel",
+    "Amount": -700,
+    "Date": "11-09-2024"
+  },
+  {
+    "Type": "Income",
+    "Title": "Stocks",
+    "Amount": 8000,
+    "Date": "01-01-2022"
+  },
+  {
+    "Type": "Expense",
+    "Title": "Gym",
+    "Amount": -124,
+    "Date": "19-07-2020"
+  },
+  {
+    "Type": "Expense",
+    "Title": "Yoga",
+    "Amount": -550,
+    "Date": "04-06-2022"
+  },
+  {
+    "Type": "Income",
+    "Title": "Lottery",
+    "Amount": 29,
+    "Date": "09-02-2023"
+  },
+  {
+    "Type": "Expense",
+    "Title": "Concert",
+    "Amount": -250,
+    "Date": "09-08-2024"
+  }
+]
