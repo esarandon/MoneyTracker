@@ -6,11 +6,12 @@ Money Tracking is a console application developed in C# for tracking financial t
 ### Features
 The application includes the following functionality:
 
-Tracking Expenses and Incomes: Enter, view, and manage both expense and income transactions.
-Sorting and Filtering: Sort transactions by month, amount, or title, and filter by expenses or incomes.
-Editing and Removing Transactions: Easily modify or delete transactions.
-Data Persistence: Save and load transaction data to and from a file.
-Intuitive Command-Line Interface: A text-based interface guides users through tracking their finances.
+- **Tracking Expenses and Incomes:** Enter, view, and manage both expense and income transactions.
+- **Sorting and Filtering:** Sort transactions by month, amount, or title, and filter by expenses or incomes.
+- **Editing and Removing Transactions:** Easily modify or delete transactions.
+- **Data Persistence:** Save and load transaction data to and from a file.
+- **Intuitive Command-Line Interface:** A text-based interface guides users through tracking their finances.
+
 The command-line interface is simple and easy to navigate, resembling the following mock-up:
 
 > ```csharp
@@ -38,6 +39,6 @@ The project satisfies the following requirements:
 ### Objective
 This project demonstrates my C# skills in object-oriented programming by modeling real-world financial tracking concepts, implementing sorting and filtering functionality, and creating a user-friendly, text-based interface.
 
-#### Solution
+### Solution
 
 - UML diagram: https://www.sharecanvas.io/p/individual-project---money-tracking
